@@ -1,0 +1,19 @@
+{
+  "title": ["{TITLE}", "Daniel Swainston. {N} notes."],
+  "opening": {
+    "takes": 3,
+    "ids": [],
+    "lines": ["One note.", "Held steady.", "Then the next."]
+  },
+  "captions": {
+    "start": "Each tile is a note I sang or whistled.",
+    "words": "No track plays under this. You still hear the words.",
+    "band": "Same voice. Different jobs.",
+    "keys": "Every key is one of my takes.",
+    "after": "Back to the wall."
+  },
+  "solo": "{PART} — still me.",
+  "end": ["{N} notes. No song was played.", "{CREDIT}", "Voice: Daniel Swainston"],
+  "accent": "#ffb340",
+  "background": "#000000"
+}

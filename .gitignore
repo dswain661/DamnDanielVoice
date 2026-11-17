@@ -2,3 +2,10 @@ node_modules/
 projects/
 .DS_Store
 *.log
+# Songs and takes stay local — never commit someone else's music or face
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.webm
+*.mp4

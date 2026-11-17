@@ -18,15 +18,20 @@ through anyway, because your brain fills them in.
   and the rest each get a choir of their own. It fetches the splitter (Demucs, about 2 GB) the first time.
 
 ```sh
-git clone https://github.com/aj-dev-smith/choir-of-one && cd choir-of-one
+git clone https://github.com/dswain661/DamnDanielVoice && cd DamnDanielVoice
 bun install
 bun run doctor     # says what is missing and how to get it
 ```
+
+For Daniel Swainston's own voice project (`projects/daniel`, never committed), see
+[SETUP-DANIEL.md](SETUP-DANIEL.md): `bun run init-daniel`, then open
+`http://127.0.0.1:4173/?project=daniel#record` in Chrome with headphones.
 
 ## Make one
 
 ```sh
 bun run start      # then open http://127.0.0.1:4173 in Chrome
+# or, for Daniel's project: http://127.0.0.1:4173/?project=daniel#record
 ```
 
 1. **Record.** The page plays a note, you sing it back and hold it for two seconds, and it moves to the
